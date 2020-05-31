@@ -12,6 +12,10 @@
 					{
 						key: '微信api',
 						url: '/pages/subPackages/index/wx-api/wx-api'
+					},
+					{
+						key: 'wxs',
+						url: '/pages/subPackages/index/wxs/wxs'
 					}
 				]
 			};

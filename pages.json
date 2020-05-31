@@ -44,9 +44,12 @@
 			"path": "wx-api/wx-api",
 			"style": {
 				"enablePullDownRefresh": true,
-				"backgroundTextStyle" : "dark",
+				"backgroundTextStyle": "dark",
 				"backgroundColor": "#FFFFFF"
 			}
+		}, {
+			"path": "wxs/wxs",
+			"style": {}
 		}]
 	}]
 }
