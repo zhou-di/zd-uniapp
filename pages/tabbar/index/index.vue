@@ -1,6 +1,6 @@
 <template>
-	<view>
-		index
+	<view class="list">
+		<button v-for="(item, index) in list" @click="handleClick(item)">{{ item.key }}</button>
 	</view>
 </template>
 
@@ -8,12 +8,28 @@
 	export default {
 		data() {
 			return {
-				
+				list: [
+					{
+						key: '微信api',
+						url: '/pages/subPackages/index/wx-api/wx-api'
+					}
+				]
 			};
+		},
+
+		methods: {
+			handleClick(row) {
+				uni.navigateTo({
+					url: row.url
+				})
+			}
 		}
 	}
 </script>
 
 <style lang="scss">
-
+	.list {
+		padding: 30rpx;
+		box-sizing: border-box;
+	}
 </style>
