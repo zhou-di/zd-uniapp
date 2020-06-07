@@ -50,6 +50,12 @@
 		}, {
 			"path": "wxs/wxs",
 			"style": {}
+		}, {
+			"path": "native/native",
+			"style": {}
+		}, {
+			"path": "component/component",
+			"style": {}
 		}]
 	}]
 }
